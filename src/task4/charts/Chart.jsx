@@ -38,6 +38,7 @@ function Chart() {
         <BarChart chartData={userData} />
       </div>
       
+
       </div>
       <div className="chart2">
       <div style={{ width: 300 }}>
