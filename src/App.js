@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router,Routes,Route,Link } from 'react-router-dom'
+import Fetch from './task2/Fetch'
+import Register from "./task5/Register"
+
+import Chart from './task4/charts/Chart'
+import Login from "./task3/Login"
+import { Provider } from 'react-redux'
+import {store} from "./Store"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Provider store={store}>
+    <Router>
+      <div className='car'>
+      <Link to="/">Register</Link>
+      <Link to="/login">Login</Link>
+      <Link to="/chart">chart</Link>
+      
+      <Link to="/fetch">Fetch</Link>
+      
+      
+      </div> 
+
+      <Routes>
+        
+        <Route path='/chart' element={<Chart/>}/>
+  
+        <Route path='/' element={<Register/>}/>
+        <Route path='/fetch' element={<Fetch/>}/>
+        <Route path='/login' element={<Login/>}/>
+        
+      </Routes>
+    </Router>
+    </Provider>
+  
+  )
 }
 
-export default App;
+export default App

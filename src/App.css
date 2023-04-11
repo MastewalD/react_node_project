@@ -1,38 +1,215 @@
-.App {
-  text-align: center;
-}
+.whole {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+ margin-top: 50px;
+  width: 350px;
+  height: 400px;
+  margin-left: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.two{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+width: 100%;
+  
+}
+.one{
+  
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.name{
+
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+.card1{
+height: 200px;
+width: 400px;
+background-color: green;
+}
+.card2{
+  height: 200px;
+  width: 400px;
+  background-color: green;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  .card3{
+    height: 200px;
+    width: 400px;
+    background-color: green;
+    }
+    .card4{
+      height: 200px;
+      width: 400px;
+      background-color: green;
+      }
+.dashboard{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.takeInput{
+
+}
+.fact{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.all{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+input {
+  width: 300px;
+  border-radius: 5px;
+}
+.button {
+  width: 100px;
+  margin-left: 100px;
+  border-radius: 5px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 100px;
+  height: 200px;
+
+}
+.link{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 50px;
+
+  height: 50px;
+  background-color: rgb(176, 176, 193);
+}
+.card1 {
+  background-color: forestgreen;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.card2 {
+  background-color: rgb(176, 193, 176);
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+.card3 {
+  background-color: forestgreen;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+}
+.chart {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+.bar {
+  background-color: rgb(217, 217, 227);
+  display: flex;
+  height: 400px;
+  width: 800px;
+}
+.barr{
+  height: 100vh;
+  width: 100%;
+}
+.pie {
+  background-color: blue;
+  height: 400px;
+  width: 400px;
+}
+.line {
+  background-color: red;
+  height: 200px;
+  width: 450px;
+}
+
+
+.total {
+  
+  height: 100vh;
+  width: 100%;
+}
+
+
+.App{
+display: flex;
+flex-direction: row;
+column-gap: 50px;
+width: 100%;
+height: 100vh;
+}
+.chart1{
+  
+  height: 500px;
+  width: 600px;
+
+}
+.error{
+  color: red;
+}
+.car{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
   color: white;
+  height: 50px;
+  
+  width: 100%;
+  background-color: rgb(177, 177, 202);
 }
+.chart2{
 
-.App-link {
-  color: #61dafb;
+  height: 500px;
+  width: 400px;
 }
+.donat{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 400px;
+  
+}
+.card{
+  height: 300px;
+  width:100%;
+}
+.chart{
+display: flex;
+flex-direction: row;
+column-gap: 50px;
+align-items: center;
+height: 300px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
