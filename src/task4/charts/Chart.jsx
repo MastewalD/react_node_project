@@ -40,8 +40,8 @@ function Chart() {
       
       </div>
       <div className="chart2">
-      <div style={{ width: 500 }}>
-        <BarChart chartData={userData} />
+      <div style={{ width: 300 }}>
+        <PieChart chartData={userData} />
       </div>
       <div style={{ width: 300 }}>
         <Doughnut chartData={userData} />
