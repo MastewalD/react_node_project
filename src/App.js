@@ -7,13 +7,20 @@ import Chart from './task4/charts/Chart'
 import Login from "./task3/Login"
 import { Provider } from 'react-redux'
 import {store} from "./Store"
+import {QueryClient,QueryClientProvider} from "@tanstack/react-query"
 
 
 function App() {
+  const client =new QueryClient({
+    
+  })
   return (
-    <Provider store={store}>
+    <div>
+      <QueryClientProvider client={client}>
     <Router>
+     
       <div className='car'>
+        
       <Link to="/">Register</Link>
       <Link to="/login">Login</Link>
       <Link to="/chart">chart</Link>
@@ -33,9 +40,10 @@ function App() {
         
       </Routes>
     </Router>
-    </Provider>
-  
+  </QueryClientProvider>
+  </div>
   )
+  
 }
 
 export default App
