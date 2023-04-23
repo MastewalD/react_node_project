@@ -5,74 +5,74 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
- margin-top: 50px;
+  margin-top: 50px;
   width: 350px;
   height: 400px;
   margin-left: 50px;
-
 }
-.two{
-
-width: 100%;
-  
+.two {
+  width: 100%;
 }
-.one{
-  
+.one {
   display: flex;
 
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
-.name{
-
+.name {
 }
-.cards{
+.cards {
   display: flex;
   flex-direction: row;
   column-gap: 50px;
 }
-.card1{
-height: 200px;
-width: 400px;
-background-color: green;
-}
-.card2{
+.card1 {
   height: 200px;
   width: 400px;
   background-color: green;
-  }
-  .card3{
-    height: 200px;
-    width: 400px;
-    background-color: green;
-    }
-    .card4{
-      height: 200px;
-      width: 400px;
-      background-color: green;
-      }
-.dashboard{
+}
+.card2 {
+  height: 200px;
+  width: 400px;
+  background-color: green;
+}
+.card3 {
+  height: 200px;
+  width: 400px;
+  background-color: green;
+}
+.card4 {
+  height: 200px;
+  width: 400px;
+  background-color: green;
+}
+.dashboard {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-.takeInput{
 
+  height: 100vh;
+  width: 100vw;
 }
-.fact{
+.takeInput {
+}
+.fact {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
   align-items: center;
   justify-content: center;
 }
-.all{
+.all {
+
+  width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  margin-left: 300px;
 }
 form {
   display: flex;
@@ -91,13 +91,13 @@ input {
 .card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-left: 50px;
   align-items: center;
-  column-gap: 100px;
-  height: 200px;
+  column-gap: 50px;
 
+  width: 100%;
 }
-.link{
+.link {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -110,20 +110,26 @@ input {
 .card1 {
   background-color: forestgreen;
   height: 150px;
-  width: 300px;
+  width: 250px;
   border-radius: 10px;
 }
 
 .card2 {
   background-color: rgb(176, 193, 176);
   height: 150px;
-  width: 300px;
+  width: 250px;
   border-radius: 10px;
 }
 .card3 {
   background-color: forestgreen;
   height: 150px;
-  width: 300px;
+  width: 250px;
+  border-radius: 10px;
+}
+.card4 {
+  background-color: forestgreen;
+  height: 150px;
+  width: 250px;
   border-radius: 10px;
 }
 .chart {
@@ -137,7 +143,7 @@ input {
   height: 400px;
   width: 800px;
 }
-.barr{
+.barr {
   height: 100vh;
   width: 100%;
 }
@@ -152,64 +158,59 @@ input {
   width: 450px;
 }
 
-
 .total {
-  
   height: 100vh;
   width: 100%;
 }
 
-
-.App{
-display: flex;
-flex-direction: row;
-column-gap: 50px;
-width: 100%;
-height: 100vh;
-}
-.chart1{
-  
-  height: 500px;
-  width: 600px;
-
-}
-.error{
-  color: red;
-}
-.car{
+.App {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
   column-gap: 50px;
-  color: white;
-  height: 50px;
-  
   width: 100%;
+  height: 100vh;
+}
+.chart1 {
+  height: 500px;
+  width: 600px;
+}
+.error {
+  color: red;
+}
+.maste {
+  display: flex;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0px;
+  row-gap: 20px;
+  height: 100vh;
+  width: 250px;
   background-color: rgb(177, 177, 202);
 }
-.chart2{
-
-  height: 500px;
-  width: 400px;
+.chart2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 200px;
 }
-.donat{
+.donat {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 300px;
   width: 400px;
-  
 }
-.card{
+.card {
   height: 300px;
-  width:100%;
+  width: 100%;
 }
-.chart{
-display: flex;
-flex-direction: row;
-column-gap: 50px;
-align-items: center;
-height: 300px;
-
+.chart {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+  align-items: center;
+  height: 300px;
 }
